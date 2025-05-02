@@ -1,13 +1,17 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { getProductById } from '../api/products';
 import { FaStar, FaArrowLeft } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 export default function ProductDetail() {
   const { id } = useParams();
+  const location = useLocation();
+  const navigate = useNavigate();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  // Obtener la ruta de referencia (search results) desde el estado de navegación
+  const fromSearchResults = location.state?.fromSearchResults || '/';
 
   useEffect(() => {
     const fetchProduct = async () => {
@@ -28,9 +32,12 @@ export default function ProductDetail() {
 
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <Link to="/" className="flex items-center text-blue-500 mb-4">
-        <FaArrowLeft className="mr-2" /> Volver
-      </Link>
+      <button 
+        onClick={() => navigate(fromSearchResults)}
+        className="flex items-center text-blue-500 mb-4 hover:text-blue-700"
+      >
+        <FaArrowLeft className="mr-2" /> Volver a resultados
+      </button>
 
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="md:flex">

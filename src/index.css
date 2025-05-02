@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+.category-header {
+    background: linear-gradient(90deg, #f0f4ff, #e0e9ff);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  }
