@@ -1,12 +1,48 @@
-# React + Vite
+# 🛍️ frontend-fnx - Frontend 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Autor:** [Luis David Castañeda Jiménez](https://github.com/luis1558)  
+**Licencia:** Todos los derechos reservados © 2025
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚠️ Derechos de Autor y Uso Legal  
+**ADVERTENCIA:**  
+🔐 Este código es propiedad intelectual de **Luis David Castañeda Jiménez**. Queda estrictamente prohibido:  
+- ✖️ Copiar/modificar/distribuir sin autorización expresa  
+- ✖️ Usar en proyectos comerciales o académicos sin previa consulta  
+- ✖️ Realizar ingeniería inversa del sistema  
 
-## Expanding the ESLint configuration
+**Consecuencias:**  
+🚨 El uso no autorizado puede acarrear acciones legales según la ley de derechos de autor (DMCA, Ley 23 de 1982 Colombia y tratados internacionales).  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Para solicitar permiso:**  
+📧 Contactar a: [lucaji1998@hotmail.com]
+
+---
+
+## 🚀 Instrucciones de Uso  
+
+### Requisitos Previos  
+- Node.js v22+  
+- NPM/
+
+### Instalación  
+1. Clona el repositorio:  
+   ```bash
+   git clone git@github.com:luis1558/frontend-fnx.git
+2. Instala dependencias
+   npm install
+
+## Comandos Útiles
+- npm run dev |	Inicia servidor de desarrollo
+- npm run build |	Genera versión para producción
+- npm run preview |	Prueba el build localmente
+
+## Link de Produccion 
+https://frontend-fnx.vercel.app/
+
+
+<p align="center">✨ Tecnologías Utilizadas</p>
+
+<p align="center"> <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React"> <img src="https://img.shields.io/badge/Vite-B73BFE?logo=vite&logoColor=white" alt="Vite"> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwind-css" alt="Tailwind"> </p>
+
