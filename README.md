@@ -41,6 +41,11 @@
 ## Link de Produccion 
 https://frontend-fnx.vercel.app/
 
+## Notas 
+- En el cuadro de busqueda puede colocar "IPHONE", "PORTATIL" Que son los ejemplos que se usaron de pruebas, cabe notar de que algunos no tienen imagenes.
+- Para crear un producto debe entrar al link "https://frontend-fnx.vercel.app/create" llenar los campos y tomar una imagen desde el dispositivo que puede ser "jpg, png, jpeg"
+  
+
 
 <p align="center">✨ Tecnologías Utilizadas</p>
 
