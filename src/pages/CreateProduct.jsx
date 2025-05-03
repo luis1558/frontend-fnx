@@ -27,7 +27,7 @@ export default function CreateProduct() {
     reader.onloadend = async () => {
       try {
         const base64Data = reader.result.split(',')[1];
-        const response = await axios.post('http://localhost:5000/api/upload', 
+        const response = await axios.post('https://backend-fnx.vercel.app/api/upload', 
           { image: base64Data },
           {
             headers: {

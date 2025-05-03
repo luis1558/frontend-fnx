@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backend-fnx.vercel.app/api';
 
 export const searchProducts = async (query) => {
   const response = await axios.get(`${API_URL}/items?q=${query}`);
